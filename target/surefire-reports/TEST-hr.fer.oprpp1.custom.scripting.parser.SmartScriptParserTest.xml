@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="hr.fer.oprpp1.custom.scripting.parser.SmartScriptParserTest" time="0.042" tests="22" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="15"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1250"/>
+    <property name="java.class.path" value="D:\5_SEMESTAR\JAVA1\hw02-0036522082\target\test-classes;D:\5_SEMESTAR\JAVA1\hw02-0036522082\target\classes;C:\Users\Josip\.m2\repository\org\junit\jupiter\junit-jupiter\5.7.0\junit-jupiter-5.7.0.jar;C:\Users\Josip\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\Josip\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Josip\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Josip\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\Josip\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.0\junit-jupiter-params-5.7.0.jar;C:\Users\Josip\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\Josip\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="HR"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\openjdk-15.0.2_windows-x64_bin\jdk-15.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\Josip\AppData\Local\Temp\surefire7279351832841100743\surefirebooter10258980897571368139.jar C:\Users\Josip\AppData\Local\Temp\surefire7279351832841100743 2021-11-21T23-32-49_854-jvmRun1 surefire372084241551290610tmp surefire_01886680708284950876tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\5_SEMESTAR\JAVA1\hw02-0036522082\target\test-classes;D:\5_SEMESTAR\JAVA1\hw02-0036522082\target\classes;C:\Users\Josip\.m2\repository\org\junit\jupiter\junit-jupiter\5.7.0\junit-jupiter-5.7.0.jar;C:\Users\Josip\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\Josip\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Josip\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Josip\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\Josip\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.0\junit-jupiter-params-5.7.0.jar;C:\Users\Josip\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\Josip\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Josip"/>
+    <property name="user.language" value="hr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-01-19"/>
+    <property name="java.home" value="C:\Program Files\openjdk-15.0.2_windows-x64_bin\jdk-15.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\5_SEMESTAR\JAVA1\hw02-0036522082"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="C:\Users\Josip\AppData\Local\Temp\surefire7279351832841100743\surefirebooter10258980897571368139.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="15.0.2+7-27"/>
+    <property name="user.name" value="Josip"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1250"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Josip\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Josip\AppData\Local\Temp\"/>
+    <property name="java.version" value="15.0.2"/>
+    <property name="user.dir" value="D:\5_SEMESTAR\JAVA1\hw02-0036522082"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\openjdk-15.0.2_windows-x64_bin\jdk-15.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NGX;C:\Program Files\openjdk-15.0.2_windows-x64_bin\jdk-15.0.2\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Go\bin;C:\Program Files\nodejs\;C:\apache-maven-3.8.3\bin;D:\IntelliJ IDEA 2021.2.3\bin;;C:\Users\Josip\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="15.0.2+7-27"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="59.0"/>
+  </properties>
+  <testcase name="testIllegalEscape" classname="hr.fer.oprpp1.custom.scripting.parser.SmartScriptParserTest" time="0"/>
+  <testcase name="testMultilineString" classname="hr.fer.oprpp1.custom.scripting.parser.SmartScriptParserTest" time="0.009"/>
+  <testcase name="testVanillaExample" classname="hr.fer.oprpp1.custom.scripting.parser.SmartScriptParserTest" time="0.003"/>
+  <testcase name="testOneTextNode" classname="hr.fer.oprpp1.custom.scripting.parser.SmartScriptParserTest" time="0.001"/>
+  <testcase name="testIllegalCharacterInEchoTag" classname="hr.fer.oprpp1.custom.scripting.parser.SmartScriptParserTest" time="0.001"/>
+  <testcase name="testForLoopTooManyArguments2" classname="hr.fer.oprpp1.custom.scripting.parser.SmartScriptParserTest" time="0.001"/>
+  <testcase name="testForLoopVariableNameMissing" classname="hr.fer.oprpp1.custom.scripting.parser.SmartScriptParserTest" time="0.001"/>
+  <testcase name="testForLoopGoodExample" classname="hr.fer.oprpp1.custom.scripting.parser.SmartScriptParserTest" time="0"/>
+  <testcase name="testForLoopGoodExample2" classname="hr.fer.oprpp1.custom.scripting.parser.SmartScriptParserTest" time="0.001"/>
+  <testcase name="testForLoopGoodExample3" classname="hr.fer.oprpp1.custom.scripting.parser.SmartScriptParserTest" time="0.001"/>
+  <testcase name="testForLoopTooManyArguments" classname="hr.fer.oprpp1.custom.scripting.parser.SmartScriptParserTest" time="0.001"/>
+  <testcase name="testTooManyEndTags" classname="hr.fer.oprpp1.custom.scripting.parser.SmartScriptParserTest" time="0.001"/>
+  <testcase name="testForLoopFunctionElement" classname="hr.fer.oprpp1.custom.scripting.parser.SmartScriptParserTest" time="0.001"/>
+  <testcase name="testTooFewEndTags" classname="hr.fer.oprpp1.custom.scripting.parser.SmartScriptParserTest" time="0"/>
+  <testcase name="testMultilineString2" classname="hr.fer.oprpp1.custom.scripting.parser.SmartScriptParserTest" time="0.001"/>
+  <testcase name="testOneTextNode2" classname="hr.fer.oprpp1.custom.scripting.parser.SmartScriptParserTest" time="0.001"/>
+  <testcase name="testOneTextNode3" classname="hr.fer.oprpp1.custom.scripting.parser.SmartScriptParserTest" time="0.001"/>
+  <testcase name="testForLoopVariableNameMissing2" classname="hr.fer.oprpp1.custom.scripting.parser.SmartScriptParserTest" time="0.001"/>
+  <testcase name="testIllegalEscape2" classname="hr.fer.oprpp1.custom.scripting.parser.SmartScriptParserTest" time="0.001"/>
+  <testcase name="testIllegalEscape3" classname="hr.fer.oprpp1.custom.scripting.parser.SmartScriptParserTest" time="0.001"/>
+  <testcase name="testComplexForLoop" classname="hr.fer.oprpp1.custom.scripting.parser.SmartScriptParserTest" time="0.001"/>
+  <testcase name="testForLoopTooFewArguments" classname="hr.fer.oprpp1.custom.scripting.parser.SmartScriptParserTest" time="0.002"/>
+</testsuite>
